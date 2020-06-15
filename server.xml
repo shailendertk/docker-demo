@@ -1,0 +1,11 @@
+<server description="default servlet engine">
+
+    <!-- Enable features -->
+    <featureManager>
+        <feature>servlet-4.0</feature>
+    </featureManager>
+    <httpEndpoint host="*" httpPort="9080" httpsPort="9443"
+                  id="defaultHttpEndpoint" />
+<!--    <application context-root="demo" type="war" id="demo" location="demo.war" name="demo"/>-->
+
+</server>
